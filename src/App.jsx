@@ -1,7 +1,8 @@
 import React from "react";
 import styles from "./style.js";
 // import LoadingBar from "react-top-loading-bar";
-import {Sugar} from 'react-preloaders';
+import { Sugar } from "react-preloaders";
+import QuickScrollList from "react-native-quick-scroll";
 
 import {
   Navbar,
@@ -22,8 +23,18 @@ const App = () => {
 
   return (
     <>
-      <Sugar background="linear-gradient(90deg, #0d6c9e 0%, #19191a 100%)" color="white" time={2050}/>
- 
+      <QuickScrollList
+        keyExtractor={(item, index) => String(item.id)}
+        data={dataArray}
+        renderItem={this.renderItem}
+        itemHeight={60}
+        viewportHeight={ScreenHeight - TabHeight}
+      />
+      <Sugar
+        background="linear-gradient(90deg, #0d6c9e 0%, #19191a 100%)"
+        color="white"
+        time={2050}
+      />
 
       <div className="bg-primary w-full overflow-hidden">
         <div className={`${styles.paddingX} ${styles.flexCenter}`}>
