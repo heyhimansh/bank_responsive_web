@@ -22,17 +22,8 @@ const App = () => {
 
   return (
     <>
-      <Sugar background="radial-gradient(
-    64.18% 64.18% at 71.16% 35.69%,
-    #def9fa 0.89%,
-    #bef3f5 17.23%,
-    #9dedf0 42.04%,
-    #7de7eb 55.12%,
-    #5ce1e6 71.54%,
-    #33bbcf 100%
-  )" />
-  background-color: #0d6c9e;
-background-image: linear-gradient(0deg, #0d6c9e 0%, #19191a 100%);
+      <Sugar background="linear-gradient(0deg, #0d6c9e 0%, #19191a 100%)" />
+ 
 
       <div className="bg-primary w-full overflow-hidden">
         <div className={`${styles.paddingX} ${styles.flexCenter}`}>
