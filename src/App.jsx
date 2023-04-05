@@ -22,7 +22,7 @@ const App = () => {
 
   return (
     <>
-      <Sugar background="linear-gradient(0deg, #0d6c9e 0%, #19191a 100%)" />
+      <Sugar background="linear-gradient(90deg, #0d6c9e 0%, #19191a 100%)" color="white" time={2050}/>
  
 
       <div className="bg-primary w-full overflow-hidden">
