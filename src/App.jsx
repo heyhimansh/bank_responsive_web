@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./style.js";
 // import LoadingBar from "react-top-loading-bar";
 import { Sugar } from "react-preloaders";
-import ProgressBar from "react-scroll-progress-bar";
+import ProgressBar from 'react-progressbar-on-scroll'
 
 import {
   Navbar,
@@ -23,7 +23,8 @@ const App = () => {
 
   return (
     <>
-      <ProgressBar height="6" bgcolor="#000" duration="0.2" />
+      <ProgressBar height={4}/>
+  
       <Sugar
         background="linear-gradient(90deg, #0d6c9e 0%, #19191a 100%)"
         color="white"
