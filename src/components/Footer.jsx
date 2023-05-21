@@ -43,8 +43,14 @@ const Footer = () => (
     </div>
 
     <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
-      <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
-        Copyright Ⓒ 2022 GeniBank. All Rights Reserved.
+      <div>
+      <p className="font-poppins font-normal text-center text-[16px] text-white">
+        &nbsp;&nbsp;&nbsp;&nbsp;Copyright Ⓒ 2022. 
+      </p>
+      <p className="font-poppins font-normal text-center text-[13px] leading-[28px] text-white">All Rights Reserved.</p>
+      </div>
+      <p className="font-poppins font-normal text-[16px] leading-[10px] pl-20 text-white">
+       <i> Developed by <a href="https://github.com/heyhimansh" target="_blank">Himanshu ⚡</a></i>
       </p>
 
       <div className="flex flex-row md:mt-0 mt-6">
