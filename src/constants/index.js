@@ -157,23 +157,23 @@ export const footerLinks = [
 export const socialMedia = [
   {
     id: "social-media-1",
-    icon: instagram,
-    link: "https://www.instagram.com/",
+    icon: "https://cdn-user-icons.flaticon.com/97215/97215827/1684652728100.svg?token=exp=1684653632~hmac=69f32e9c15310e24c5cbd63c3ffad246",
+    link: "https://github.com/heyhimansh",
   },
   {
     id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
+    icon: "https://cdn-user-icons.flaticon.com/97215/97215827/1684652595587.svg?token=exp=1684653532~hmac=ce1076c9d24b3f1731634a4c6a86aaf2",
+    link: "https://www.instagram.com/himansh_rathore_/",
   },
   {
     id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/",
+    icon: "https://cdn-user-icons.flaticon.com/97215/97215827/1684652867203.svg?token=exp=1684653788~hmac=ab35921ce1238ae772353099056f8b97",
+    link: "#",
   },
   {
     id: "social-media-4",
-    icon: linkedin,
-    link: "https://www.linkedin.com/",
+    icon: "https://cdn-user-icons.flaticon.com/97215/97215827/1684652938866.svg?token=exp=1684653843~hmac=1a0fe1aaecfd4db395b1a9d936af7255",
+    link: "https://www.linkedin.com/in/himanshu-rathore-537885202/",
   },
 ];
 
