@@ -50,7 +50,7 @@ const Footer = () => (
       <p className="font-poppins font-normal text-center text-[13px] leading-[28px] text-white">All Rights Reserved.</p>
       </div>
       <p className="font-poppins font-normal text-[16px] leading-[10px] pl-20 text-white">
-       <i> Developed by <a href="https://github.com/heyhimansh" target="_blank">Himanshu ⚡</a></i>
+       <i> Developed by <a href="https://github.com/heyhimansh" target="_blank" className=" hover:text-secondary">Himanshu ⚡</a></i>
       </p>
 
       <div className="flex flex-row md:mt-0 mt-6">
