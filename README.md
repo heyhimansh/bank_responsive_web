@@ -17,8 +17,14 @@ Welcome to the Bank Responsive Web project! This web application is your sole fr
 - Tailwind CSS: A utility-first CSS framework for rapidly building custom designs.
 - Framer Motion: A library for adding smooth animations and transitions to React components.
 
-## Performance Graph
+## Performance Graph 
+</br>
 
+
+<p align="center">
+  <img src="/perf.png" alt="Performance Graph">
+</p>
+</br>
 
 
 ## Installation
